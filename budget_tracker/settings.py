@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'transactions',
     'category',
     'rest_framework',
-    'user'
+    'user',
+    'recurringtransac'
 ]
 
 MIDDLEWARE = [

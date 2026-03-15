@@ -21,11 +21,13 @@ from rest_framework.routers import DefaultRouter
 from transactions.views import TransactionsViewSet
 from category.views import CategoryViewSet
 from user.views import UserViewSet
+from recurringtransac.views import RecurringConfigViewSet
 
 router = DefaultRouter()
 router.register(r'transactions', TransactionsViewSet)
 router.register(r'categories', CategoryViewSet)
 router.register('users', UserViewSet)
+router.register('recurringtransacconfig', RecurringConfigViewSet)
 
 
 urlpatterns = [

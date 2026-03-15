@@ -1,0 +1,12 @@
+asgiref
+Django
+django-stubs
+django-stubs-ext
+djangorestframework
+djangorestframework_simplejwt
+djangorestframework-stubs
+PyJWT
+sqlparse
+types-PyYAML
+typing_extensions
+tzdata
